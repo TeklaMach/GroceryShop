@@ -14,6 +14,10 @@
 		D02780C82B25C85000A2F7F6 /* GroceryShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02780C72B25C85000A2F7F6 /* GroceryShopTests.swift */; };
 		D02780D22B25C85000A2F7F6 /* GroceryShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02780D12B25C85000A2F7F6 /* GroceryShopUITests.swift */; };
 		D02780D42B25C85000A2F7F6 /* GroceryShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02780D32B25C85000A2F7F6 /* GroceryShopUITestsLaunchTests.swift */; };
+		D02780E12B25CA7000A2F7F6 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02780E02B25CA7000A2F7F6 /* Product.swift */; };
+		D02780E32B25CA8F00A2F7F6 /* GroceryStoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02780E22B25CA8F00A2F7F6 /* GroceryStoreViewModel.swift */; };
+		D02780E92B2612C300A2F7F6 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02780E82B2612C300A2F7F6 /* ProductView.swift */; };
+		D02780ED2B2620A300A2F7F6 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02780EC2B2620A300A2F7F6 /* CartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		D02780CD2B25C85000A2F7F6 /* GroceryShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02780D12B25C85000A2F7F6 /* GroceryShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryShopUITests.swift; sourceTree = "<group>"; };
 		D02780D32B25C85000A2F7F6 /* GroceryShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D02780E02B25CA7000A2F7F6 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		D02780E22B25CA8F00A2F7F6 /* GroceryStoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryStoreViewModel.swift; sourceTree = "<group>"; };
+		D02780E82B2612C300A2F7F6 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		D02780EC2B2620A300A2F7F6 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				D02780B62B25C84E00A2F7F6 /* GroceryShopApp.swift */,
 				D02780B82B25C84E00A2F7F6 /* ContentView.swift */,
+				D02780E02B25CA7000A2F7F6 /* Product.swift */,
+				D02780E22B25CA8F00A2F7F6 /* GroceryStoreViewModel.swift */,
+				D02780E82B2612C300A2F7F6 /* ProductView.swift */,
+				D02780EC2B2620A300A2F7F6 /* CartView.swift */,
 				D02780BA2B25C84F00A2F7F6 /* Assets.xcassets */,
 				D02780BC2B25C84F00A2F7F6 /* Preview Content */,
 			);
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D02780ED2B2620A300A2F7F6 /* CartView.swift in Sources */,
+				D02780E92B2612C300A2F7F6 /* ProductView.swift in Sources */,
 				D02780B92B25C84E00A2F7F6 /* ContentView.swift in Sources */,
 				D02780B72B25C84E00A2F7F6 /* GroceryShopApp.swift in Sources */,
+				D02780E32B25CA8F00A2F7F6 /* GroceryStoreViewModel.swift in Sources */,
+				D02780E12B25CA7000A2F7F6 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
